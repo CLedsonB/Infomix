@@ -15,7 +15,7 @@
         background: #000000;
     }
     h2 {
-        font: 30px Fantasy, Sans-serif;
+        font: 28px Fantasy, Sans-serif;
         font-weight: 500;
         color: #ffffff;
     }
@@ -28,18 +28,26 @@
     }
     .links {
         display: flex;
-        justify-content: center;
-        align-ites: center;
         border: 10px solid #ffffff;
         padding: 20px;
         text-decoration: None;
+        justify-content: center;
+        align-ites: center;
         color: #ffffff;
-        font: 18px Arial;
+        font: 18px Arial, Sans-serif;
         font-weight: 300;
     }
     .links:hover {
         color: #50fd00;
         border: 8px solid #50fd00;
+    }
+    @media only screen and (min-device-width: 768px){
+        h2 {
+            font-size: 32px;
+        }
+        .links {
+            font-size: 22px;
+        }
     }
 </style>
 
