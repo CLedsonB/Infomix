@@ -3,110 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Infomix - Informações aleatórias</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<style>
-body, div, li, p, h2 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-:root {
---corPrimaria: #000000;
---corSecundaria: #ffffff;
---corButton: #969696;
-}
-.ativar-dark:checked ~ .dark-mode{
-  --corPrimaria: #ffffff;
-  --corSecundaria: #000000;
-}
-.ativar-dark:checked ~ .conteudo {
-    background-color: var(--corPrimaria);
-}
-h2 {
-    padding: 0 20px;
-    font-size: 24px;
-    font-family: Fantasy, Sans-serif;
-    color: var(--corSecundaria);
-}
-p {
-    color: var(--corSecundaria);
-}
-li {
-    padding: 0 20px;
-    display: block;
-}
-.ativar-dark {
-  width: 50px;
-  height: 50px;
-  display: none;
-}
-label {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 52px;
-  height: 30px;
-  background-color: var(--corSecundaria);
-  border-radius: 20px;
-  padding: 5px;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-label span {
-  width: 20px;
-  height: 20px;
-  display: block;
-  background-color: var(--corButton);
-  border-radius: 100%;
-  transition: all ease 0.3s;
-}
-.ativar-dark:checked ~ .dark-mode label span {
-  transform: translateX(21px);
-  transition: all ease 0.3s;
-}
-.ativar-dark:checked ~ div {
-  background-color: var(--corPrimaria);
-}
-.titulo {
-    text-align: center;
-}
-.item {
-    margin: 100px 0;
-    list-style: none;
-}
-.links {
-    display: flex;
-    border: 10px solid var(--corSecundaria);
-    padding: 20px;
-    text-decoration: None;
-    justify-content: center;
-    align-items: center;
-    color: var(--corSecundaria);
-    font-size: 18px;
-    font-family: Arial, Sans-serif;
-    font-weight: 300;
-}
-.links:hover {
-    color: #50fd00;
-    border: 8px solid #50fd00;
-}
-.conteudo {
-    width: 100%;
-    height: 100%;
-    background-color: var(--corPrimaria);
-}
-@media (min-decive-width: 768px) {
-    h2 {
-        font-size: 22px;
-    }
-    .links {
-        font-size: 18px;
-    }
-}
-</style>
 
 <div class="conteudo">
     <input type="checkbox" id="ativar-dark" class="ativar-dark">
@@ -120,11 +18,26 @@ label span {
             <p>Informações aleatórias</p>
         </div>
     </header>
-    <body>
+    <body> <br><br><br>
+      <ul>
+        <li><a href="./paginas/animes.html">Animes</a></li>
+        <li><a href="./paginas/cosplay.html">Cosplay</a></li>
+        <li><a href="./paginas/desenho.html">Desenhos</a></li>
+        <li><a href="./paginas/ciencia.html">Inovações Científicas</a></li>
+        <li><a href="./paginas/filme.html">Filmes</a></li>
+        <li><a href="#">Física quântica</a></li>
+        <li><a href="#">Vagas de emprego</a></li>
+        <li><a href="#">Programação</a></li>
+        <li><a href="#">Curiosidades</a></li>
+        <li><a href="#">Jogos/Game e emuladores</a></li>
+        <li><a href="#">Inteligência artificial</a></li>
+        
+      </ul>
+      
         <ul>  
             <li class="item">
                 <a href="https://concursosnobrasil.com/confira-15-carros-que-raramente-apresentam-defeitos-mecanicos/amp/" class="links">
-                    15 carros que dificilmente apresentam defeitos mecânicos
+                   15 carros que dificilmente apresentam defeitos mecânicos
                 </a>
             </li>         
             <li class="item">
@@ -622,8 +535,17 @@ label span {
                 <a href="https://f-droid.org/en/packages/com.termux/" class="links">
                     Termux - Emulador de terminal com pacotes
                 </a>
+            </li>        
+            <li class="item">
+                <a href="" class="links">
+                    
+                </a>
             </li>
-            
+            <li class="item">
+                <a href="" class="links">
+                     
+                </a>
+            </li>
         </ul>
     </body>
 <br><br><br>
