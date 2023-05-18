@@ -105,7 +105,7 @@ label span {
 
 /* Configuração para Tablet, desktop e tv*/
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     h2 {
         font-size: 22px;
     }
